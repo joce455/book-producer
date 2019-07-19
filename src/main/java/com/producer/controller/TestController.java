@@ -17,9 +17,9 @@ public class TestController {
 		System.out.println("Inside firstPage");
 		
 		Book book = new Book();
-		book.setDescription("The best book");
+		book.setDescription("The third best book");
 		book.setIsbn("book1");
-		book.setName("The witcher");
+		book.setName("The witcher 3");
 		book.setPrice(2.3);
 		
 		if(book.getName().equalsIgnoreCase("emp1"))
